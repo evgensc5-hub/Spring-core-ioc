@@ -13,6 +13,10 @@ public class DemoController {
     //@Autowired
     //public DemoController(Chef theChef) {
     //   myChef = theChef;
+    //setter injection
+    @Autowired
+    public void setMyChef(Chef theChef) {
+        myChef = theChef;
 
     }
     @GetMapping("/dailyrecipe")
