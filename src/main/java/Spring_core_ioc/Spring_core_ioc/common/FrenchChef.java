@@ -10,3 +10,9 @@ import org.springframework.stereotype.Component;
             return  "Preparez un Boeuf Bourguignon avec vin rouge et hergs";
         }
     }
+    public FrenchChef() {
+        System.out.println("In constructor" + getClass().getSimpleName() );
+    }
+}
+
+

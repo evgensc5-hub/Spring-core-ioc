@@ -10,3 +10,6 @@ public class MexicanChef implements Chef {
         return " prepara tacos all pastor con pina...";
     }
 }
+public MexicanChef() {
+    System.out.println("In constructor" + getClass().getSimpleName() );
+}

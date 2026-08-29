@@ -9,4 +9,7 @@ public class TurkishChef implements Chef{
     public String getDailyRecipe() {
         return "Prepara un kebab cu carne de miel, servit cu pilaf de orez si iaurt!";
     }
+    public TurkishChef() {
+        System.out.println("In constructor" + getClass().getSimpleName() );
+    }
 }
