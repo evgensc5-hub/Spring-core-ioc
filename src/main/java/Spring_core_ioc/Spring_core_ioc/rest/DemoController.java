@@ -12,12 +12,14 @@ public class DemoController {
 
     //constructor
     @Autowired
-    public DemoController(@Qualifier("frenchChef") Chef theChef) {
-        myChef = theChef;
-        //   @Autowired
-        //    public void setMyChef(Chef theChef) {
-        //       myChef = theChef;
+    public DemoController(@Qualifier("frenchChef") Chef theChef){
+        myChef =theChef;
     }
+//secondChef = theSecondChef;
+
+//   @Autowired
+//    public void setMyChef(Chef theChef) {
+//       myChef = theChef;
 
     @GetMapping("/dailyrecipe")
     public String getDailyRecipe() {

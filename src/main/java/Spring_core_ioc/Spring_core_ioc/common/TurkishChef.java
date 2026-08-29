@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
-@Lazy
+@Lazy //lenes
 public class TurkishChef implements Chef {
 
     @Override
