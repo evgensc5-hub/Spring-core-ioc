@@ -12,7 +12,7 @@ public class DemoController {
 
     //constructor
     @Autowired
-    public DemoController(@Qualifier("frenchChef") Chef theChef){
+    public DemoController(@Qualifier("greekChef") Chef theChef){
         myChef =theChef;
     }
 //secondChef = theSecondChef;
